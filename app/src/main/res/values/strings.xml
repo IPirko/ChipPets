@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ChipPets</string>
+    <string name="chip_name_hint">Chip Number</string>
+    <string name="petName">Pet Name</string>
+    <string name="pet_owner_full_name">Pet owner full name</string>
+    <string name="button_submit">Submit</string>
+    <string name="hint_email">Email</string>
+    <string name="login">Login</string>
+    <string-array name="arrayPets">
+        <item name="dog">dog</item>
+        <item name="cat">cat</item>
+    </string-array>
+</resources>

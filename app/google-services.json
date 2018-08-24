@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "586912067626",
+    "firebase_url": "https://chippets-b41e7.firebaseio.com",
+    "project_id": "chippets-b41e7",
+    "storage_bucket": "chippets-b41e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586912067626:android:9c17df485626723f",
+        "android_client_info": {
+          "package_name": "com.push.iprun.chippets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586912067626-rh1rqk8a5e0q4o1liu1rutt1nrfv704n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.push.iprun.chippets",
+            "certificate_hash": "b919d223e8ebc6073cf352212d76966db05a4935"
+          }
+        },
+        {
+          "client_id": "586912067626-b4ghbcn1t8o61cj26m04egu9do4advee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGjmZzAFEyJFF44_GmlVVdH1sUe4XJuEs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586912067626-b4ghbcn1t8o61cj26m04egu9do4advee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

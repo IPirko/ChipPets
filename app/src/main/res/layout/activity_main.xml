@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/petTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/arrayPets"
+        android:padding="@dimen/padding10dp" />
+
+    <EditText
+        android:id="@+id/petChipNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/chip_name_hint"
+        android:padding="@dimen/padding10dp" />
+
+    <EditText
+        android:id="@+id/petNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/petName"
+        android:padding="@dimen/padding10dp" />
+
+    <EditText
+        android:id="@+id/petOwnerFullNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pet_owner_full_name"
+        android:padding="@dimen/padding10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/buttonSubmit"
+        android:text="@string/button_submit"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/buttonListing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonListing"
+        android:text="Listing Pets" />
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:id="@+id/petNameTextView"-->
+        <!--android:layout_height="wrap_content" />-->
+</LinearLayout>
